@@ -35,4 +35,16 @@ Account: [li281077304-boop](https://github.com/li281077304-boop)
 - Each fork's default branch matches the upstream default branch and has the same HEAD SHA as the upstream snapshot above. This preserves the upstream commit ancestry at the fork point.
 - No source files were edited, deleted, formatted, or had dependencies upgraded as part of this archival step.
 - Excluded from this archival batch: `guozeng/xiaogj-plus` and `guozeng/xiaogj-youli-element`.
-- Source analysis has not started.
+- Initial static analysis of `wtwo/` was completed on 2026-10-07 at `5561802e8fc2ed699f30abc59e5e942269660db2`; no live API requests were made.
+
+
+## Static API archaeology snapshot
+
+- Analysis date: 2026-10-07.
+- Source repository and branch: https://github.com/li281077304-boop/blog, `main`.
+- Source HEAD: `5561802e8fc2ed699f30abc59e5e942269660db2`.
+- Scope: the 254 tracked files under `wtwo/`; source inspection only.
+- Result: 181 unique method + normalized path entries across active wrappers, one SSE route and direct URL calls. Request/response completeness varies; see [api-map.md](api-map.md).
+- No service source, database or runtime behavior was available in the inspected frontend tree. No online business API was called.
+- The upstream repository has no GitHub-detected license (`license: null`). This research repository contains summaries, schemas and route references, not copied third-party source code.
+- Detailed documents: [API topology](api-topology.md), [data models](data-model-map.md), [scheduling flow](scheduling-api-flow.md), [auth and permissions](auth-permission-map.md), [access assessment](api-access-assessment.md), and [future Network plan](network-verification-plan.md).
