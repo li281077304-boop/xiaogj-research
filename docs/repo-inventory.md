@@ -48,3 +48,12 @@ Account: [li281077304-boop](https://github.com/li281077304-boop)
 - No service source, database or runtime behavior was available in the inspected frontend tree. No online business API was called.
 - The upstream repository has no GitHub-detected license (`license: null`). This research repository contains summaries, schemas and route references, not copied third-party source code.
 - Detailed documents: [API topology](api-topology.md), [data models](data-model-map.md), [scheduling flow](scheduling-api-flow.md), [auth and permissions](auth-permission-map.md), [access assessment](api-access-assessment.md), and [future Network plan](network-verification-plan.md).
+
+
+## Live product map reference
+
+- Map date: 2026-10-07.
+- Target: `https://tms22.xiaogj.com` in the user's existing Chrome login; only normal menu navigation and visible page structure were observed.
+- Method: Website Cloner portable Map/Observe guidance at `JCodesMore/ai-website-cloner-template` master commit `ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb`; Build intentionally skipped.
+- No browser Network data, real record values or screenshots were committed.
+- See [live-product-map.md](live-product-map.md) and [source-vs-live-gap-map.md](source-vs-live-gap-map.md).

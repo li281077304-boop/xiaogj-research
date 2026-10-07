@@ -17,3 +17,8 @@ Status: updated 2026-10-07 from static source at `li281077304-boop/blog/main`, H
 The API inventory contains 181 unique method/path entries after deduplicating aliases. By business module: course 96, exam 36, finance 6, organization 20, user 18, AI 3, other/legacy 2. These module labels classify frontend endpoints; they do not assert server microservice boundaries.
 
 `chenzhengduan/blog/wtwo` remains `PRIMARY_RESEARCH_TARGET`. The earlier `klaus-caichang/vueInteraction` fork remains a historical front-end reference; it was not analyzed in this pass.
+
+
+## Live navigation comparison (2026-10-07)
+
+The current account exposes six first-level areas in the live portal: 招生营销、前台业务、教务管理、人事管理、家校服务、报表中心. The 32 direct menu destinations and their page states are listed in [live-product-map.md](live-product-map.md). Exact WTwo page matches are 排课管理 and 考试管理; course/class/timetable/make-up and several report pages are partial; CRM, HR workflow and family-school functions are predominantly live-only.

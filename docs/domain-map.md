@@ -15,3 +15,14 @@ Status: updated 2026-10-07 from static inspection of `wtwo/` at `5561802e8fc2ed6
 | User preference | Timetable and color preference request/view models; user settings store | Timetable preferences are the best-defined user-scoped model set in this source snapshot. | `data-model-map.md`. |
 
 The complete field-level inventory for 35 exported `src/types/model` declarations, shared API field declarations, and the user-requested entity checklist is in [data-model-map.md](data-model-map.md). The APIs themselves are inventoried in [api-map.md](api-map.md).
+
+
+## Live UI domain evidence (2026-10-07)
+
+- **Student:** live profile table labels include name, student number, phone, remaining quantity, homeroom teacher, current class count, grade and status. Values were not retained. WTwo's static models remain mostly ID/name references.
+- **Class:** visible list columns include class/course, lead teacher, assistant, homeroom teacher, default room, lesson time and enrollment/capacity counts.
+- **Course/catalog:** visible labels include course name, price/unit, grade, subject, type, class type, term/year, 1:1 and charging/consumption flags. The rightmost columns were not fully observed.
+- **Schedule/Course UI:** view selectors expose teacher, 1:1 learner, class, classroom and campus calendars; cards display time/course or class label and status. Student roster details inside each course were not verified in this pass.
+- **Family-school:** nested pages cover lesson feedback, learner dynamics, materials, summaries, albums, grade reports, BI and operations maps. These are UI domain labels only; no record/model data was saved.
+
+This is visual UI evidence, not a confirmed server DTO. Use [source-vs-live-gap-map.md](source-vs-live-gap-map.md) for self-system data boundaries and [live-product-map.md](live-product-map.md) for per-page structure.

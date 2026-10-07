@@ -20,3 +20,14 @@ This repository is a place for research notes and inventory only. Third-party so
 5. Only three active API flows bind both request and response models: custom fields, dictionaries and timetable preferences. Draft/course, exam, score and financial wrappers are mostly `any`; 35 exported model declarations do not constitute a complete backend schema. See [data-model-map.md](data-model-map.md).
 6. Host/domain strings and routes are public-source evidence only. A frontend reference to a host or route does not prove reachability, current service ownership or response behavior. The repository has no GitHub-detected license; no source code or real personal/student data was copied into these notes.
 7. A later browser pass is planned as passive observation of normal read-only UI actions under the user's own authorized account, with all values redacted. It has not been performed. See [network-verification-plan.md](network-verification-plan.md).
+
+
+## 2026-10-07 — Live UI Map (Map → Observe → Record only)
+
+- **LIVE_UI_OBSERVED:** six first-level TMS modules, 32 direct second-level menu destinations, plus 25 nested entries in the AI family-school navigation. Report pages expose many additional tab states.
+- Main ERP states typically retain `tms22.xiaogj.com/index.html` while the breadcrumb/menu state changes. The family-school app was observed at `jxq.xiaogj.com`; the operations dashboard at `dashboard.xiaogj.com`.
+- The student profile list visibly includes identity/contact/remaining-quantity/class/grade/status columns; only labels were recorded. Class and course-management tables show richer teacher/assistant/room/lesson and price/type fields than WTwo's exported model set.
+- The schedule UI offers list, calendar, table and five calendar object modes. Schedule mutations were not performed.
+- The live menu includes CRM, family communication, summaries, albums, student-grade reports, payroll/approvals and broad operational reporting that WTwo does not implement as matching pages.
+- UI visibility is not API evidence. No Network results were captured; no API claims were upgraded to `NETWORK_CONFIRMED`. See [live-product-map.md](live-product-map.md) and [source-vs-live-gap-map.md](source-vs-live-gap-map.md).
+- No Website Cloner Build step was run. No screenshots or real data were committed.
